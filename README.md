@@ -9,6 +9,10 @@ Well, this app can work on your local. Just download and open index.html.
 
 Enjoy your business modeling. ^^
 
+## Capture image
+
+![leanCanvasTemplate](https://user-images.githubusercontent.com/9692738/80698596-ab231a80-8b15-11ea-81c7-7f71ca304a08.png)
+
 ## contents
 
 ```
