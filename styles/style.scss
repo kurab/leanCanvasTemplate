@@ -1,0 +1,12 @@
+$border-color: gray;
+$note-color: crimson;
+
+@import "global";
+@import "headerFooter";
+@import "canvas";
+
+@media print {
+  footer {
+    display: none;
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lean Canvas app. You can create your own canvas here!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Lean Canvas App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lean Canvas</h1>
+      <div class="editInfo">
+        <div class="canvasTitle">
+          Title: <span contenteditable="true">Canvas Title</span>
+        </div>
+        <div class="canvasAuthor">
+          Created by: <span contenteditable="true" id="author">Author</span>
+        </div>
+        <div class="canvasDate">
+          Date: <span contenteditable="true">YYYY/MM/DD</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="canvasBody">
+        <div class="box problemsBox">
+          <div class="mainItemBox">
+            <h2>Problems</h2>
+            <p contenteditable="true">List your top 1-3 problems.</p>
+          </div>
+          <div class="subItemBox">
+            <h3>Existing Alternatives</h3>
+            <p contenteditable="true">
+              List how these problems are solved today.
+            </p>
+          </div>
+        </div>
+        <div class="box solutionBox">
+          <h2>Solution</h2>
+          <p contenteditable="true">
+            Outline a possible solution for each problem.
+          </p>
+        </div>
+        <div class="box keyMetricsBox">
+          <h2>Key Metrics</h2>
+          <p contenteditable="true">
+            List key numbers that tell you how your business is doing.
+          </p>
+        </div>
+        <div class="box uvpBox">
+          <div class="mainItemBox">
+            <h2>Unique Value Proposition</h2>
+            <p contenteditable="true">
+              Single, clear, compelling message that states why you are
+              defferent and worth paying attention.
+            </p>
+          </div>
+          <div class="subItemBox">
+            <h3>High Level Concept</h3>
+            <p contenteditable="true">
+              List your X for Y analogy <br />
+              (e.g. YouTube = Flickr for Video)
+            </p>
+          </div>
+        </div>
+        <div class="box advantageBox">
+          <h2>Unfair Advantage</h2>
+          <p contenteditable="true">
+            Something that cannot easily be bought or copied.
+          </p>
+        </div>
+        <div class="box channelsBox">
+          <h2>Channels</h2>
+          <p contenteditable="true">
+            List your path to customer. <br />(inbound or outbound)
+          </p>
+        </div>
+        <div class="box customerBox">
+          <div class="mainItemBox">
+            <h2>Customer Segment</h2>
+            <p contenteditable="true">List your target and users.</p>
+          </div>
+          <div class="subItemBox">
+            <h3>Early Adopters</h3>
+            <p contenteditable="true">
+              List the charactelistics of your ideal customers.
+            </p>
+          </div>
+        </div>
+        <div class="cashFlowBoxes">
+          <div class="box costBox">
+            <h2>Cost Structure</h2>
+            <p contenteditable="true">List your fixed and variable costs.</p>
+          </div>
+          <div class="box revenueBox">
+            <h2>Revenue Streams</h2>
+            <p contenteditable="true">List your sources of revenue.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h4>kura &copy; 2020</h4>
+      <a href="https://github.com/kurab" target="_blank">
+        <img src="./img/github.svg" alt="github-link" />
+      </a>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

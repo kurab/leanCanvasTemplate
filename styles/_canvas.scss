@@ -1,0 +1,61 @@
+/* canvas style */
+.canvasBody {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  border: 1px solid $border-color;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 3fr 3fr 2fr;
+}
+
+.box {
+  border: 1px solid $border-color;
+  padding: 1rem;
+  h2,
+  h3 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    color: $note-color;
+    cursor: pointer;
+  }
+}
+
+.problemsBox,
+.uvpBox,
+.customerBox {
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+}
+.mainItemBox {
+  height: 60%;
+}
+.subItemBox {
+  height: 40%;
+}
+.solutionBox,
+.advantageBox {
+  grid-row: 1/2;
+}
+.keyMetricsBox,
+.channelsBox {
+  grid-row: 2/3;
+}
+.cashFlowBoxes {
+  grid-column: 1/6;
+  display: flex;
+}
+.costBox,
+.revenueBox {
+  width: 100%;
+}
